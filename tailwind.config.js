@@ -10,7 +10,7 @@ export default {
         primary: "rgba(8, 47, 73, 1)", // Use a hex code or other valid color value
       },
       animation: {
-        typing: "typing 2s steps(30, end), blink-caret 0.75s step-end infinite",
+        typing: "typing 3s steps(30, end), blink-caret 0.75s step-end infinite",
       },
       keyframes: {
         typing: {
