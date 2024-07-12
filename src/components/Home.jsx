@@ -27,7 +27,7 @@ const Home = () => {
               spy={true}
               smooth={true}
               duration={500}
-              style={{ cursor: "pointer" }}
+              className="cursor-pointer"
             >
               S
               <span>
@@ -48,7 +48,7 @@ const Home = () => {
               spy={true} // Spy on the scroll position
               smooth={true} // Smooth scroll
               duration={500} // Duration of the scroll animation
-              style={{ cursor: "pointer" }} // Cursor style for the link
+              className="cursor-pointer" // Cursor style for the link
             >
               Home
             </Link>
@@ -60,7 +60,7 @@ const Home = () => {
               smooth={true}
               offset={50} // Offset for the scroll position
               duration={500}
-              style={{ cursor: "pointer" }}
+              className="cursor-pointer"
             >
               Services
             </Link>
@@ -72,7 +72,7 @@ const Home = () => {
               smooth={true}
               offset={50}
               duration={500}
-              style={{ cursor: "pointer" }}
+              className="cursor-pointer" 
             >
               About
             </Link>
@@ -84,7 +84,7 @@ const Home = () => {
               smooth={true}
               offset={50}
               duration={500}
-              style={{ cursor: "pointer" }}
+              className="cursor-pointer" 
             >
               Contact
             </Link>

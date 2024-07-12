@@ -34,7 +34,7 @@ const Contact = () => {
             <div className="flex flex-col">
               {/* Titles */}
               <div className="mb-6">
-                <h5 className="text-xl font-semibold text-violet-700 mb-6">
+                <h5 className="text-xl font-semibold text-sky-700 mb-6">
                   Contact me
                 </h5>
                 <h1 className="font-bold text-5xl mb-6 text-primary">
@@ -53,7 +53,7 @@ const Contact = () => {
                   <div className="bg-gray-100 rounded-md p-2 px-5 mr-5 size-20 flex justify-center items-center">
                     <FontAwesomeIcon
                       icon={faHouse}
-                      className="size-10 text-violet-500 "
+                      className="size-10 text-sky-700"
                     />
                   </div>
                   <div>
@@ -69,7 +69,7 @@ const Contact = () => {
                   <div className="bg-gray-100 rounded-md p-2 px-3 mr-5 size-20 flex justify-center items-center">
                     <FontAwesomeIcon
                       icon={faPhoneVolume}
-                      className="size-10 text-violet-500"
+                      className="size-10 text-sky-700"
                     />
                   </div>
                   <div>
@@ -85,7 +85,7 @@ const Contact = () => {
                   <div className="bg-gray-100 rounded-md p-2 px-3 mr-5 size-20 flex justify-center items-center">
                     <FontAwesomeIcon
                       icon={faEnvelope}
-                      className="size-10 text-violet-500"
+                      className="size-10 text-sky-700"
                     />
                   </div>
                   <div>
@@ -109,7 +109,7 @@ const Contact = () => {
                     autoComplete="off"
                     id="name"
                     required
-                    className="w-full border-2 border-gray-300 rounded-md px-2 h-10 caret-violet-800 focus:outline-violet-600"
+                    className="w-full border-2 border-gray-300 rounded-md px-2 h-10 caret-sky-700  focus:outline-sky-700"
                   />
                 </div>
                 <div className="flex flex-col items-center mb-6 py-2">
@@ -119,7 +119,7 @@ const Contact = () => {
                     autoComplete="off"
                     id="email"
                     required
-                    className="w-full border-2 border-gray-300 rounded-md px-2 h-10 caret-violet-800 focus:outline-violet-500"
+                    className="w-full border-2 border-gray-300 rounded-md px-2 h-10 caret-sky-700 focus:outline-sky-700"
                   />
                 </div>
                 <div className="flex flex-col items-center py-2">
@@ -129,7 +129,7 @@ const Contact = () => {
                     autoComplete="off"
                     id="message"
                     required
-                    className="w-full border-2 border-gray-300 rounded-md px-2 pt-2 h-32 caret-violet-800 focus:outline-violet-600"
+                    className="w-full border-2 border-gray-300 rounded-md px-2 pt-2 h-32 caret-sky-700 focus:outline-sky-700"
                   />
                 </div>
               </form>
