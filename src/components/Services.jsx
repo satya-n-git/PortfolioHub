@@ -37,7 +37,7 @@ const Services = () => {
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white border border-gray-200 rounded-lg shadow-lg p-6 flex flex-col justify-between"
+              className="bg-secondary_bg border border-gray-200 rounded-lg shadow-lg p-6 flex flex-col justify-between"
             >
               <h2 className="font-semibold text-2xl mb-4">{service.title}</h2>
               <p className="line-clamp-4">{service.desc}</p>

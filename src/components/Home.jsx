@@ -10,16 +10,16 @@ const Home = () => {
     <div className="font-poppins relative min-h-fit">
       {/* Background video */}
       {/* <video
-        src={videoSrc} // Source of the video
+        src={videoSrc} 
         className="w-full h-screen object-cover z-0" // Full width, full height, cover the container, and behind other elements
-        loop // Loop the video
-        autoPlay // Autoplay the video
-        muted // Mute the video
+        loop 
+        autoPlay 
+        muted 
       ></video> */}
       <img src={imageSrc} className="w-full h-screen object-cover z-0" />
 
       {/* Navigation bar */}
-      <nav className="flex justify-around items-center fixed top-0 left-0 w-full p-2 text-blue-50 bg-gray-900 z-50">
+      <nav className="flex justify-around items-center fixed top-0 left-0 w-full p-2 text-blue-50 bg-primary_bg z-50">
         <div>
           <h1 className=" text-5xl font-extrabold tracking-widest">
             <Link
@@ -72,7 +72,7 @@ const Home = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className="cursor-pointer" 
+              className="cursor-pointer"
             >
               About
             </Link>
@@ -84,7 +84,7 @@ const Home = () => {
               smooth={true}
               offset={50}
               duration={500}
-              className="cursor-pointer" 
+              className="cursor-pointer"
             >
               Contact
             </Link>

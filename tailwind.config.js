@@ -7,7 +7,12 @@ export default {
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
-        primary: "rgba(8, 47, 73, 1)", // Use a hex code or other valid color value
+        primary: "rgba(8, 47, 73, 1)",
+        secondary: "rgba(15, 118, 182, 1)",
+        tertiary: "rgba(100, 116, 139, 1)",
+        primary_bg: "rgba(17, 24, 39, 1)",
+        secondary_bg: "rgb(255 255 255, 1)",
+        tertiary_bg: "rgba(240, 249, 255, 1)",
       },
       animation: {
         typing: "typing 3s steps(30, end), blink-caret 0.75s step-end infinite",
