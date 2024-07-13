@@ -76,7 +76,7 @@ I welcome contributions to improve this portfolio. To contribute, please follow 
 This project is licensed under the MIT License.
 
 ## Contact
-For any questions or inquiries, please reach out to me at your-email@example.com.
+For any questions or inquiries, please reach out to me at nambusatya@gmail.com.
 
 Thank you for visiting my portfolio!
 
