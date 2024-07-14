@@ -12,7 +12,8 @@ Welcome to my personal portfolio! This project showcases my skills and experienc
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
+## Home Page Screenshot 
+![image](https://github.com/user-attachments/assets/90516469-3c7a-46e9-a939-350255020eb3)
 ## Introduction
 
 This portfolio is designed to highlight my professional journey, including my work experience, skills, projects, and contact information. It is a single-page application that provides a comprehensive overview of my profile in an engaging and user-friendly manner.
